@@ -28,5 +28,4 @@ cd react-virtual-piano
 npm install
 
 3. **Start developmental server**
-
 npm start
