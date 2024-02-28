@@ -1,0 +1,161 @@
+* {
+  background-color: black;
+
+}
+
+.piano {
+  margin:auto;
+  background-color: black;
+  position:absolute;
+  bottom:0;
+  left: 15%;
+}
+
+
+.record-button-wrapper {
+  position: fixed; /* or absolute, depending on your layout */
+  top: 20%;
+  left: 15%;
+}
+.delete-button-wrapper {
+  position: fixed; /* or absolute, depending on your layout */
+  top: 45%;
+  left: 15%;
+}
+.song-wrapper {
+  position: fixed; /* or absolute, depending on your layout */
+  top: 15%;
+  right: 15%; 
+}
+.piano-tracks {
+  width:500px;
+  height:300px; 
+  margin:auto;
+  background-color:#212020;
+  -webkit-box-shadow:inset 0 -5px 5px 1px rgba(0,0,0,1);
+     -moz-box-shadow:inset 0 -5px 5px 1px rgba(0,0,0,1);
+          box-shadow:inset 0 -5px 5px 1px rgba(0,0,0,1);
+  padding:20px 20px 20px 35px;
+  border-radius:10px;
+  position:relative;
+  margin-bottom:15px;
+  padding:30px;
+}
+
+.piano-tracks__list {
+  background-color:white;
+  max-height:265px;
+  overflow:hidden;
+  overflow-y:auto;
+  border:solid 1px #2d2c2c;
+}
+
+.piano-tracks__list__ul {
+  list-style:none;
+  margin:0;
+  padding:0;
+
+}
+
+.piano-tracks__list__ul li {
+  color:white;
+  background-color:#212020;
+  text-align:left;
+  padding:10px;
+  border-bottom:solid 1px #2d2c2c;
+  cursor:pointer;
+}
+
+.piano-tracks__list__ul li:hover {
+  background-color:#191818;
+}
+
+.piano__recorder {
+  color:white;
+  right:20px;
+  font-weight:bold;
+  display:flex;
+  align-items:center;
+}
+
+.piano__recorder__input {
+  width:18px;
+  height:18px;
+  margin-right:5px;
+}
+
+.piano__brand {
+  color:white;
+  text-align:center;
+  display:block;
+  font-size:1rem;
+  margin:0 0 20px 0;
+}
+
+.piano__scale {
+  margin:0;
+  padding:0;
+  list-style:none;
+  position:relative;
+  font-size:0;
+
+}
+
+.piano__scale li {
+  padding:0;
+  margin:0 0 0 -14px;
+  width:40px;
+  height:200px;
+  cursor:pointer;
+  float:left;
+  position:relative;
+  z-index:1;
+  bottom:0;
+  background: #F4f4f4; /* Old browsers */
+  
+}
+
+.list-box  {
+  position: absolute;
+  bottom: 210px; /* Adjust this value based on the piano's height */
+  left: 15%; /* Align with the piano's left position */
+  width:895px; /* Adjust based on preference */
+  text-align: center; /* Center the text inside the input */
+  border-style: solid;
+  border-color:white;
+  border-width: 1px;
+  border-radius: 3px;
+  color:white;  
+}
+
+
+.animate-icon {
+  animation: moveToLeft 1s forwards; /* Adjust duration as needed */
+  animation-fill-mode: forwards;
+}
+.piano__scale li:active {
+  background-color: #add8e6;
+}
+
+.piano__scale li.half {
+  margin-left:1px;
+  
+}
+.piano__scale li.activer {
+  background-color: #add8e6;
+}
+
+.piano__scale li.flat {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4f4f4f+1,2d2c2c+100 */
+  background:#1a1a1a; /* Old browsers */
+  height:125px;
+  z-index:2;
+  width:30px;
+  margin-left:-15px;
+
+}
+
+
+.piano__scale li.flat:active {
+  background-color: #add8e6;
+}

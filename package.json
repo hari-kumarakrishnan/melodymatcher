@@ -1,0 +1,25 @@
+{
+  "name": "piano-task",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.11",
+    "@mui/joy": "^5.0.0-beta.29",
+    "@mui/material": "^5.15.11",
+    "bootstrap": "^5.3.3",
+    "classnames": "^2.2.6",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-howler": "^3.7.3",
+    "react-scripts": "1.1.5",
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
