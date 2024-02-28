@@ -22,10 +22,11 @@ To run this app locally, follow these steps:
 ```bash
 git clone https://github.com/yourusername/react-virtual-piano.git
 cd react-virtual-piano
-2. ** Install Dependencies **
+
+2. **Install Dependencies**
 
 npm install
 
-3. ** Start developmental server **
+3. **Start developmental server**
 
 npm start
